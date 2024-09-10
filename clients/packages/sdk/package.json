@@ -14,7 +14,7 @@
   "scripts": {
     "download": "node scripts/generate-schema.js http://127.0.0.1:8000/openapi.json openapi/source.json openapi/updated.json",
     "generate": "pnpm download && ./generate",
-    "build": "tsup src/index.ts --format cjs,esm --dts && cp -r openapi dist",
+    "build": "node init && tsup src/index.ts --format cjs,esm --dts && cp -r openapi dist",
     "prepublishOnly": "pnpm run build"
   },
   "devDependencies": {

@@ -94,8 +94,6 @@ __pypackages__/
 *.sage.py
 
 # Environments
-.env
-.env.*
 .venv
 env/
 venv/
@@ -133,3 +131,8 @@ playground.py
 .secrets/
 
 .jwks.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
+node_modules

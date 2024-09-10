@@ -586,4 +586,4 @@ const createConfig = async () => {
   return conf
 }
 
-export default createConfig
+export default createConfig;
